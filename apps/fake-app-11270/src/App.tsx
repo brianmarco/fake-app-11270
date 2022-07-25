@@ -1,4 +1,5 @@
 import React from 'react';
+import { SomeComponent } from '@fake-app-11270/some-lib';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <SomeComponent>Some Component</SomeComponent>
       </header>
     </div>
   );
